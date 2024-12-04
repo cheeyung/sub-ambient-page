@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #A8DCEF;
+    color: #1A5092;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #346EA4;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+a {
+    color: #3D8FB1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4BCFD6;
+    color: white;
+}

@@ -1,0 +1,12 @@
+---
+const { title, content } = Astro.props;
+---
+
+<section class="flex items-start justify-between py-6 border-b-2 border-blue-400">
+  <div class="w-1/4 mr-4">
+    <h2 class="font-raleway text-3xl font-bold mb-2">{title}</h2>
+  </div>
+  <div class="w-3/4">
+    <p class="text-justify m-0">{content}</p>
+  </div>
+</section>

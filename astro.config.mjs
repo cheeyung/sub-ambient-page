@@ -6,4 +6,5 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     integrations: [tailwind()],
     site: 'https://sub-ambient.net'
+    base: 'sub-ambient-page'
   });

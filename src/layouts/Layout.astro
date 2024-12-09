@@ -1,19 +1,21 @@
-
-
 ---
-// Layout for wrapping the entire page
+import "../styles/global.css";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sub-Ambient</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../styles/global.css" />
-</head>
-<body class="flex flex-col min-h-screen text-white font-lato leading-relaxed m-0 bg-[#0A3976]">
-  <slot />
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sub-Ambient</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="flex flex-col min-h-screen text-white font-lato leading-relaxed m-0 bg-[#0A3976]"
+  >
+    <slot />
+  </body>
 </html>

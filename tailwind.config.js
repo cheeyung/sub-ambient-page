@@ -5,7 +5,12 @@ export default {
     "./public/**/*.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'raleway': ['Raleway', 'sans-serif'],
+        'lato': ['Lato', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
